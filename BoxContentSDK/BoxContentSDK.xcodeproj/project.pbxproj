@@ -546,6 +546,7 @@
 		A56769A41E086F8200A6E97F /* BOXContentSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E470434316D41DC500FED29A /* BOXContentSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769A51E086F8200A6E97F /* BOXContentSDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F4693517264439000CAD86 /* BOXContentSDKErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769A61E086F8200A6E97F /* BOXContentSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF273516DC4A5100F5979E /* BOXContentSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AA12491E08EAF300F78F00 /* BOXLog.h in Sources */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BOXLog.h */; };
 		C53EC2441A3873090007C8A7 /* BOXComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC2421A3873090007C8A7 /* BOXComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C53EC2451A3873090007C8A7 /* BOXComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C53EC2431A3873090007C8A7 /* BOXComment.m */; };
 		C53EC25E1A38855E0007C8A7 /* BOXCommentAddRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC25C1A38855E0007C8A7 /* BOXCommentAddRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -2641,6 +2642,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AA12491E08EAF300F78F00 /* BOXLog.h in Sources */,
 				A56768811E086E1700A6E97F /* BOXAuthorizationViewController.m in Sources */,
 				A56768821E086E1700A6E97F /* BOXOAuth2Session.m in Sources */,
 				A56768831E086E1700A6E97F /* BOXParallelOAuth2Session.m in Sources */,
@@ -3310,6 +3312,7 @@
 				A56768771E086CF300A6E97F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A567687B1E086CF300A6E97F /* Build configuration list for PBXNativeTarget "BoxContentSDKFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -3318,6 +3321,7 @@
 				A56768791E086CF300A6E97F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E470433616D41DC500FED29A /* Build configuration list for PBXProject "BoxContentSDK" */ = {
 			isa = XCConfigurationList;
