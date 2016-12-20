@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <BoxContentSDK/BOXContentSDK.h>
+#import <BoxContentSDKFramework/BOXContentSDK.h>
 
 //! Project version number for BoxContentSDKFramework.
 FOUNDATION_EXPORT double BoxContentSDKFrameworkVersionNumber;
