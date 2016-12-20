@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Box. All rights reserved.
 //
 
-#import <BoxContentSDK/BOXContentSDK.h>
+#import "BOXContentSDK.h"
 
 typedef void (^BOXAPIAppUsersAuthSuccessBlock)(NSString *, NSDate *);
 typedef void (^BOXAPIAppUsersAuthFailureBlock)(NSError *);
