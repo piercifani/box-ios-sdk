@@ -395,11 +395,9 @@
 		A56769081E086E1700A6E97F /* BOXAppToAppMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E11BED481ADC050000A9216F /* BOXAppToAppMessage.m */; };
 		A56769091E086E1700A6E97F /* BOXContentSDKErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E08238F1A76CE2700222778 /* BOXContentSDKErrors.m */; };
 		A567690A1E086E1700A6E97F /* BOXContentSDKConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E44A95B016E21C5100356ADA /* BOXContentSDKConstants.m */; };
-		A567690F1E086E7700A6E97F /* BOXAPIOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD9A7172CE2C50052AD11 /* BOXAPIOperation.h */; };
 		A56769101E086E8100A6E97F /* BOXHashHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E11035F41A200E6B00B46F6D /* BOXHashHelper.h */; };
 		A56769111E086E8900A6E97F /* BOXRequest+Metadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 8676E0C31B2D7EAC00AC2677 /* BOXRequest+Metadata.h */; };
 		A56769121E086E8F00A6E97F /* BOXKeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DE3A1D71AB112A5002E3FDA /* BOXKeychainItemWrapper.h */; };
-		A56769131E086E9A00A6E97F /* BOXUser_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 15280E331A37E70B008D4F5D /* BOXUser_Private.h */; };
 		A56769141E086F8200A6E97F /* BOXAuthorizationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD996172CE2C50052AD11 /* BOXAuthorizationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769151E086F8200A6E97F /* BOXOAuth2Session.h in Headers */ = {isa = PBXBuildFile; fileRef = E4FAD998172CE2C50052AD11 /* BOXOAuth2Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769161E086F8200A6E97F /* BOXParallelOAuth2Session.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CA6F5C173F1C750089680F /* BOXParallelOAuth2Session.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -547,7 +545,9 @@
 		A56769A51E086F8200A6E97F /* BOXContentSDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F4693517264439000CAD86 /* BOXContentSDKErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769A61E086F8200A6E97F /* BOXContentSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF273516DC4A5100F5979E /* BOXContentSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5AA12491E08EAF300F78F00 /* BOXLog.h in Sources */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BOXLog.h */; };
-		A5AA124A1E08ECAB00F78F00 /* BOXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BOXLog.h */; };
+		A5AA124F1E08F45700F78F00 /* BOXAPIOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AA124E1E08F45700F78F00 /* BOXAPIOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AA12511E08F48800F78F00 /* BOXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AA12501E08F48800F78F00 /* BOXLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AA12521E08F4A900F78F00 /* BOXUser_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 15280E331A37E70B008D4F5D /* BOXUser_Private.h */; };
 		C53EC2441A3873090007C8A7 /* BOXComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC2421A3873090007C8A7 /* BOXComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C53EC2451A3873090007C8A7 /* BOXComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C53EC2431A3873090007C8A7 /* BOXComment.m */; };
 		C53EC25E1A38855E0007C8A7 /* BOXCommentAddRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC25C1A38855E0007C8A7 /* BOXCommentAddRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1034,6 +1034,8 @@
 		A567686D1E086CF300A6E97F /* BoxContentSDKFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxContentSDKFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56768721E086CF300A6E97F /* BoxContentSDKFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BoxContentSDKFrameworkTests.m; sourceTree = "<group>"; };
 		A56768741E086CF300A6E97F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AA124E1E08F45700F78F00 /* BOXAPIOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BOXAPIOperation.h; path = BoxContentSDK/Operations/BOXAPIOperation.h; sourceTree = "<group>"; };
+		A5AA12501E08F48800F78F00 /* BOXLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BOXLog.h; path = BoxContentSDK/BOXLog.h; sourceTree = "<group>"; };
 		C53EC2421A3873090007C8A7 /* BOXComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOXComment.h; sourceTree = "<group>"; };
 		C53EC2431A3873090007C8A7 /* BOXComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOXComment.m; sourceTree = "<group>"; };
 		C53EC25C1A38855E0007C8A7 /* BOXCommentAddRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOXCommentAddRequest.h; sourceTree = "<group>"; };
@@ -1793,6 +1795,8 @@
 		E470433216D41DC500FED29A = {
 			isa = PBXGroup;
 			children = (
+				A5AA12501E08F48800F78F00 /* BOXLog.h */,
+				A5AA124E1E08F45700F78F00 /* BOXAPIOperation.h */,
 				E470434016D41DC500FED29A /* BoxContentSDK */,
 				15605D861A20132200C5EE5A /* BoxContentSDKTests */,
 				E4081D901758728900F6D6AA /* BoxContentSDKResources */,
@@ -2174,12 +2178,12 @@
 				A56769A41E086F8200A6E97F /* BOXContentSDK.h in Headers */,
 				A56769A51E086F8200A6E97F /* BOXContentSDKErrors.h in Headers */,
 				A56769A61E086F8200A6E97F /* BOXContentSDKConstants.h in Headers */,
-				A5AA124A1E08ECAB00F78F00 /* BOXLog.h in Headers */,
-				A56769131E086E9A00A6E97F /* BOXUser_Private.h in Headers */,
+				A5AA124F1E08F45700F78F00 /* BOXAPIOperation.h in Headers */,
+				A5AA12511E08F48800F78F00 /* BOXLog.h in Headers */,
+				A5AA12521E08F4A900F78F00 /* BOXUser_Private.h in Headers */,
 				A56769121E086E8F00A6E97F /* BOXKeychainItemWrapper.h in Headers */,
 				A56769111E086E8900A6E97F /* BOXRequest+Metadata.h in Headers */,
 				A56769101E086E8100A6E97F /* BOXHashHelper.h in Headers */,
-				A567690F1E086E7700A6E97F /* BOXAPIOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
