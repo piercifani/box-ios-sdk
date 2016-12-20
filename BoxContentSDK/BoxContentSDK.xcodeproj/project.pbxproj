@@ -547,6 +547,7 @@
 		A56769A51E086F8200A6E97F /* BOXContentSDKErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = E4F4693517264439000CAD86 /* BOXContentSDKErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56769A61E086F8200A6E97F /* BOXContentSDKConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CF273516DC4A5100F5979E /* BOXContentSDKConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5AA12491E08EAF300F78F00 /* BOXLog.h in Sources */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BOXLog.h */; };
+		A5AA124A1E08ECAB00F78F00 /* BOXLog.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C3289716D6F447002DC905 /* BOXLog.h */; };
 		C53EC2441A3873090007C8A7 /* BOXComment.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC2421A3873090007C8A7 /* BOXComment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C53EC2451A3873090007C8A7 /* BOXComment.m in Sources */ = {isa = PBXBuildFile; fileRef = C53EC2431A3873090007C8A7 /* BOXComment.m */; };
 		C53EC25E1A38855E0007C8A7 /* BOXCommentAddRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = C53EC25C1A38855E0007C8A7 /* BOXCommentAddRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -2173,6 +2174,7 @@
 				A56769A41E086F8200A6E97F /* BOXContentSDK.h in Headers */,
 				A56769A51E086F8200A6E97F /* BOXContentSDKErrors.h in Headers */,
 				A56769A61E086F8200A6E97F /* BOXContentSDKConstants.h in Headers */,
+				A5AA124A1E08ECAB00F78F00 /* BOXLog.h in Headers */,
 				A56769131E086E9A00A6E97F /* BOXUser_Private.h in Headers */,
 				A56769121E086E8F00A6E97F /* BOXKeychainItemWrapper.h in Headers */,
 				A56769111E086E8900A6E97F /* BOXRequest+Metadata.h in Headers */,
