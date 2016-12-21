@@ -140,3 +140,4 @@
 
 // Categories
 #import "NSString+BOXContentSDKAdditions.h"
+#import "NSError+BOXContentSDKAdditions.h"
