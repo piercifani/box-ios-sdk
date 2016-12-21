@@ -138,4 +138,5 @@
 #import "BOXMetadataTemplate.h"
 #import "BOXMetadataTemplateField.h"
 
-
+// Categories
+#import "NSString+BOXContentSDKAdditions.h"
